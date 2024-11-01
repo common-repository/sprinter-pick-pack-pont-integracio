@@ -1,0 +1,555 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-10-21 02:32+0200\n"
+"PO-Revision-Date: 2020-10-21 02:38+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/pickpackpont.php:25 includes/pickpackpont.php:59
+#: includes/pickpackpont.php:272 includes/sprinter.php:891
+msgid "Pick Pack Pont"
+msgstr "Pick Pack Point"
+
+#: includes/pickpackpont.php:26
+msgid "Szállítás Pick Pack Pontra"
+msgstr "Ship to Pick Pack Point"
+
+#: includes/pickpackpont.php:56
+msgid "Elnevezés"
+msgstr "Name"
+
+#: includes/pickpackpont.php:58
+msgid "A vásárlók által a pénztárban látható elnevezés."
+msgstr "Name seen by customers on the Checkout page"
+
+#: includes/pickpackpont.php:64
+msgid "Ár"
+msgstr "Price"
+
+#: includes/pickpackpont.php:66
+msgid "Szállítás költsége"
+msgstr "Shipping cost"
+
+#: includes/pickpackpont.php:217
+msgid "Kérjük, válassz Pick Pack Pontot!"
+msgstr "Please choose a Pick Pack Point"
+
+#: includes/pickpackpont.php:236
+msgid "Pick Pack Pont hozzáadva."
+msgstr "Pick Pack Point added"
+
+#: includes/pickpackpont.php:241
+msgid "Pick Pack Pont módosítva."
+msgstr "Pick Pack Point modified"
+
+#: includes/pickpackpont.php:244
+msgid "Pick Pack Pont törölve."
+msgstr "Pick Pack Point removed"
+
+#: includes/pickpackpont.php:276
+msgid "Szerkesztés"
+msgstr "Edit"
+
+#: includes/pickpackpont.php:290
+msgid "Kiválasztott Pick Pack Pont törlése"
+msgstr "Remove the selected Pick Pack Point"
+
+#: includes/pickpackpont.php:300 sprinter-ppp-integracio.php:62
+msgid "Keresés irányítószám alapján"
+msgstr "Search by postal code"
+
+#: includes/pickpackpont.php:328 sprinter-ppp-integracio.php:61
+msgid "Választott Pick Pack Pont:"
+msgstr "Selected Pick Pack Point"
+
+#: includes/pickpackpont.php:342 includes/pickpackpont.php:418
+#: includes/pickpackpont.php:477
+msgid "Boltazonostó:"
+msgstr "Shop ID"
+
+#: includes/pickpackpont.php:346 includes/pickpackpont.php:422
+#: includes/pickpackpont.php:481
+msgid "Név:"
+msgstr "Name:"
+
+#: includes/pickpackpont.php:350 includes/pickpackpont.php:426
+#: includes/pickpackpont.php:485
+msgid "Irányítószám:"
+msgstr "Postal code:"
+
+#: includes/pickpackpont.php:354 includes/pickpackpont.php:430
+#: includes/pickpackpont.php:489
+msgid "Város:"
+msgstr "City:"
+
+#: includes/pickpackpont.php:358 includes/pickpackpont.php:434
+#: includes/pickpackpont.php:493
+msgid "Cím:"
+msgstr "Address:"
+
+#: includes/pickpackpont.php:370 sprinter-ppp-integracio.php:42
+#: sprinter-ppp-integracio.php:63
+msgid "még nincs kiválasztva"
+msgstr "not selected yet"
+
+#: includes/pickpackpont.php:410 includes/pickpackpont.php:471
+msgid "Választott Pick Pack Pont"
+msgstr "Selected Pick Pack Point"
+
+#: includes/pudo/PudoServices.php:259 includes/pudo/PudoServices.php:392
+msgid "Nem érkezett válaszüzenet a Sprinter/PPP rendszerétől"
+msgstr "There was no response from Sprinter's system"
+
+#: includes/pudo/PudoServices.php:272
+msgid "Hiba a szállítmány létrehozásakor:"
+msgstr "Error while creating shipment"
+
+#: includes/pudo/PudoServices.php:295
+msgid "Hiba a csomag létrehozásakor:"
+msgstr "Error while creating parcel"
+
+#: includes/pudo/PudoServices.php:353
+msgid ""
+"Ehhez a megrendeléshez még nem készült fuvarlevél, ez a funkció nem "
+"használható"
+msgstr ""
+"This order has no waybill yet, you cannot use "
+"this function"
+
+#: includes/sprinter.php:75
+msgid "Megrendelés"
+msgstr "Order"
+
+#: includes/sprinter.php:78
+msgid "Újrarendelés"
+msgstr "Order again"
+
+#: includes/sprinter.php:81 includes/sprinter.php:522
+msgid "Fuvarlevélszám:"
+msgstr "Waybill number:"
+
+#: includes/sprinter.php:85
+msgid "Fuvarlevél"
+msgstr "Waybill"
+
+#: includes/sprinter.php:87
+msgid "Nyomkövetés"
+msgstr "Tracking"
+
+#includes/sprinter.php:89
+msgid "Szállítási mód"
+msgstr "Shipping method"
+
+#: includes/sprinter.php:91
+msgid "Cserecsomag"
+msgstr "Exchange package"
+
+
+#: includes/sprinter.php:142 includes/sprinter.php:477
+msgid "Beállítások"
+msgstr "Settings"
+
+#: includes/sprinter.php:157
+msgid "Alapbeállítások"
+msgstr "Base settings"
+
+#: includes/sprinter.php:161
+msgid "Bekapcsolás / Kikapcsolás"
+msgstr "On / Off"
+
+#: includes/sprinter.php:164
+msgid "Sprinter / Pick Pack Pont engedélyezése"
+msgstr "Enable Sprinter / Pick Pack Point"
+
+#: includes/sprinter.php:233
+msgid "Címke méret"
+msgstr "Label size"
+
+#: includes/sprinter.php:237
+msgid "Címke méret kiválasztása: A4 / A6-os"
+msgstr "Select label size: A4 / A6"
+
+#: includes/sprinter.php:169
+msgid "Környezet"
+msgstr "Environment"
+
+#: includes/sprinter.php:173
+msgid ""
+"Teszt vagy éles Sprinter / Pick Pack Pont környezet kiválsztása. Ha a teszt "
+"az aktív, partnerkód és token megadása nem szükséges."
+msgstr ""
+"Select between the production and the testing Sprinter / Pick Pack Pont environment. "
+"When set to \"test\", partner code and token are not necessary."
+
+#: includes/sprinter.php:178
+msgid "Partnerkód"
+msgstr "Partner code"
+
+#: includes/sprinter.php:181
+msgid "Sprinter / Pick Pack Pont partnerkód"
+msgstr "Sprinter / Pick Pack Point partner code"
+
+#: includes/sprinter.php:187
+msgid "Token"
+msgstr "Token"
+
+#: includes/sprinter.php:190
+msgid "Sprinter / Pick Pack Pont API token"
+msgstr "Sprinter / Pick Pack Point API token"
+
+#: includes/sprinter.php:196
+msgid "Prefix"
+msgstr "Prefix"
+
+#: includes/sprinter.php:199
+msgid "Sprinter / Pick Pack Pont vonalkódok prefixe"
+msgstr "Prefix of Sprinter / Pick Pack Point waybills"
+
+#: includes/sprinter.php:205
+msgid "Debug mód"
+msgstr "Debug mode"
+
+#: includes/sprinter.php:208
+msgid "Az API kérések és válaszok megjelenítése"
+msgstr "Display API requests and responses"
+
+#: includes/sprinter.php:213
+msgid "További utánvétes fizetési módok"
+msgstr "Additional cash on delivery payment methods"
+
+#: includes/sprinter.php:216 includes/sprinter.php:1115
+msgid ""
+"A bővítmény automatikusan kiválasztja az alapértelmezett utánvétes fizetési "
+"módot:"
+msgstr ""
+"The plugin automatically selects the defaul cash on delivery payment "
+"method:"
+
+#: includes/sprinter.php:217
+msgid ""
+"Amennyiben webáruházában további fizetési módok is utánvétesnek számítanak, "
+"úgy itt állíthatja be azokat."
+msgstr ""
+"In case your webshop has other payment methods considered as cash on delivery, "
+"you can add those here."
+
+#: includes/sprinter.php:226
+msgid "Nyilatkozatok"
+msgstr "Statments"
+
+#: includes/sprinter.php:231
+msgid "Szállításból kizárt termékek"
+msgstr "Prohibited items"
+
+#: includes/sprinter.php:234
+msgid "Nyilatkozom, hogy nem küldök szállításból kizárt terméket"
+msgstr "I confirm that I do not ship prohibited items"
+
+#: includes/sprinter.php:235
+msgid "Szállításból kizárt termékek:"
+msgstr "Prohibited items:"
+
+#: includes/sprinter.php:237
+msgid "Logisztikai útmutató csomagoláshoz:"
+msgstr "Packaging guide"
+
+#: includes/sprinter.php:243
+msgid "ÁSZF"
+msgstr "Terms and Conditions"
+
+#: includes/sprinter.php:246
+msgid ""
+"Nyilatkozom, hogy ismerem és elfogadom a Sprinter Futárszolgálat Kft. "
+"Általános Szerződési Feltételeit"
+msgstr ""
+"I hereby confirm that I know and agree to the general terms and conditions "
+"of Sprinter Futárszolgálat Kft."
+
+#: includes/sprinter.php:256
+msgid "Pick Pack Pont beállítások"
+msgstr "Pick Pack Point settings"
+
+#: includes/sprinter.php:260
+msgid "Csomagméret"
+msgstr "Package size"
+
+#: includes/sprinter.php:263
+msgid "S"
+msgstr "S"
+
+#: includes/sprinter.php:263
+msgid "M"
+msgstr "M"
+
+#: includes/sprinter.php:263
+msgid "L"
+msgstr "L"
+
+#: includes/sprinter.php:263
+msgid "XL"
+msgstr "XL"
+
+#: includes/sprinter.php:264
+msgid "A Pick Pack Pontra feladott csomagok mérete"
+msgstr "Size of the packages sent to Pick Pack Points"
+
+#: includes/sprinter.php:269
+msgid "Kereső típusa"
+msgstr "Type of parcel point locator"
+
+#: includes/sprinter.php:272
+msgid "Lista"
+msgstr "List"
+
+#: includes/sprinter.php:272
+msgid "Térkép"
+msgstr "Map"
+
+#: includes/sprinter.php:273
+msgid ""
+"Megadhatja, hogy a vásárlók listából vagy térképesen választhassák ki az "
+"átvételi Pick Pack Pontot"
+msgstr ""
+""
+""
+
+#: includes/sprinter.php:278
+msgid "Csomagpont azonosító bolti csomagfeladáshoz"
+msgstr ""
+
+#: includes/sprinter.php:281
+msgid ""
+"Amennyiben nem raktárban, hanem Pick Pack Ponton adja fel csomagjait, itt "
+"adja meg a kiinduló Pick Pack Pont kódját."
+msgstr ""
+
+#: includes/sprinter.php:282
+msgid "NORMÁL RAKTÁRI FELADÁS ESETÉN EZT A MEZŐT HAGYJA ÜRESEN!"
+msgstr ""
+
+#: includes/sprinter.php:292
+msgid "Sprinter házhozszállítási beállítások"
+msgstr ""
+
+#: includes/sprinter.php:296
+msgid "Csomag hosszúság"
+msgstr ""
+
+#: includes/sprinter.php:299
+msgid "Sprinter csomag alapértelmezett hosszúsága"
+msgstr ""
+
+#: includes/sprinter.php:305
+msgid "Csomag szélesség"
+msgstr ""
+
+#: includes/sprinter.php:308
+msgid "Sprinter csomag alapértelmezett xzélessége"
+msgstr ""
+
+#: includes/sprinter.php:314
+msgid "Csomag magasság"
+msgstr ""
+
+#: includes/sprinter.php:317
+msgid "Sprinter csomag alapértelmezett magassága"
+msgstr ""
+
+#: includes/sprinter.php:323
+msgid "Csomag súlya"
+msgstr ""
+
+#: includes/sprinter.php:326
+msgid "Sprinter csomag alapértelmezett súlya"
+msgstr ""
+
+#: includes/sprinter.php:332
+msgid "Feladás helye"
+msgstr ""
+
+#: includes/sprinter.php:335
+msgid "Telephely"
+msgstr ""
+
+#: includes/sprinter.php:335
+msgid "Depó"
+msgstr ""
+
+#: includes/sprinter.php:336
+msgid "Ez a beállítás csak a tömeges CSV fájl előállításához szükséges."
+msgstr ""
+
+#: includes/sprinter.php:336
+msgid ""
+"Megadhatja, hogy a csomagokat a Sprinter futár a telephelyéről veszi fel, "
+"vagy Ön szállítja be depóba."
+msgstr ""
+
+#: includes/sprinter.php:345
+msgid "PDF/CSV dokumentumok"
+msgstr ""
+
+#: includes/sprinter.php:347
+msgid ""
+"Amennyiben törölni szeretné az eddig készült PDF és CSV dokumentumokat a "
+"tárhelyéről, kattintson a Törlés gombra."
+msgstr ""
+
+#: includes/sprinter.php:347
+msgid "Törlés"
+msgstr ""
+
+#: includes/sprinter.php:354
+msgid "Hasznos információk"
+msgstr ""
+
+#: includes/sprinter.php:356
+msgid "További hasznos információkért látogassa meg az alábbi oldalt:"
+msgstr ""
+
+#: includes/sprinter.php:471
+msgid "(TESZT) "
+msgstr ""
+
+#: includes/sprinter.php:476
+msgid ""
+"A bővítmény beállításainál nyilatkoznia kell, hogy nem ad fel szállításból "
+"kizárt terméket, valamint elfogadja az ÁSZF-et."
+msgstr ""
+
+#: includes/sprinter.php:499
+msgid "Sprinter API kérés:"
+msgstr ""
+
+#: includes/sprinter.php:499
+msgid "Sprinter API válasz:"
+msgstr ""
+
+#: includes/sprinter.php:504
+msgid "Sikertelen Sprinter megrendelés."
+msgstr ""
+
+#: includes/sprinter.php:504 includes/sprinter.php:505
+#: includes/sprinter.php:514 includes/sprinter.php:520
+#: includes/sprinter.php:537 includes/sprinter.php:538
+msgid "Webshop rendelési azonosító:"
+msgstr ""
+
+#: includes/sprinter.php:505 includes/sprinter.php:538
+msgid "Hibaüzenet:"
+msgstr ""
+
+#: includes/sprinter.php:506 includes/sprinter.php:514
+msgid "Sprinter hibaüzenet:"
+msgstr ""
+
+#: includes/sprinter.php:520
+msgid "Sikeres Sprinter megrendelés."
+msgstr ""
+
+#: includes/sprinter.php:532
+#, php-format
+msgid "Sikeres Sprinter megrendelés. Fuvarlevélszám: %s."
+msgstr ""
+
+#: includes/sprinter.php:537
+msgid "Hiba: üres visszatérési státusz."
+msgstr ""
+
+#: includes/sprinter.php:558
+msgid "Sprinter megrendelések véglegesítése"
+msgstr ""
+
+#: includes/sprinter.php:559
+msgid "Sprinter dokumentumok lekérése"
+msgstr ""
+
+#: includes/sprinter.php:560
+msgid "Sprinter tömeges betöltő CSV"
+msgstr ""
+
+#: includes/sprinter.php:731
+msgid "Fuvarlevél(ek):"
+msgstr ""
+
+#: includes/sprinter.php:732
+msgid "Átvételi elismervény(ek):"
+msgstr ""
+
+#: includes/sprinter.php:888
+msgid "Pick Pack Pont:"
+msgstr ""
+
+#: includes/sprinter.php:897
+msgid "Házhoz szállítás:"
+msgstr ""
+
+#: includes/sprinter.php:900
+msgid "Házhoz szállítás"
+msgstr ""
+
+#: includes/sprinter.php:907
+msgid "Sikeres Sprinter tömeges betöltő CSV generálás."
+msgstr ""
+
+#: includes/sprinter.php:912
+msgid "Sikertelen Sprinter tömeges betöltő CSV generálás."
+msgstr ""
+
+#: includes/sprinter.php:1036
+msgid "Engedélyezett"
+msgstr ""
+
+#: includes/sprinter.php:1039
+msgid "Nem engedélyezett"
+msgstr ""
+
+#: includes/sprinter.php:1063
+msgid "fájl törölve."
+msgstr ""
+
+#: includes/sprinter.php:1086
+msgid "Sprinter hibaüzenet"
+msgstr ""
+
+#: includes/sprinter.php:1088
+msgid ""
+"A bővítmény használatához szükség van a CURL telepítésére vagy az "
+"allow_url_fopen engedélyezésére. Kérem, jelezze ezt a weboldal "
+"üzemeltetőjének."
+msgstr ""
+
+#: includes/sprinter.php:1109
+msgid "Sprinter figyelmeztetés"
+msgstr ""
+
+#: includes/sprinter.php:1118
+msgid ""
+"Amennyiben webáruházában további fizetési módok is utánvétesnek számítanak, "
+msgstr ""
+
+#: includes/sprinter.php:1119
+msgid "úgy itt állíthatja be azokat."
+msgstr ""
+
+#: includes/sprinter.php:1124
+msgid "Megértettem"
+msgstr ""
+
+#: sprinter-ppp-integracio.php:60
+msgid "Pick Pack Pont választó"
+msgstr ""
+
+#: sprinter-ppp-integracio.php:64
+msgid "A Pick Pack Pont kiválasztása a következő lépésben történik."
+msgstr ""

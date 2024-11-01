@@ -1,0 +1,125 @@
+#sprinter_pickpackpont_kontener {
+	margin-bottom: 40px;
+}
+
+.sprinter_pickpackpont_filter_kontener {
+	border: 1px solid rgb(242, 241, 241);
+	padding: 5px;
+	border-bottom: 0px;
+}
+
+#sprinter_pickpackpont_filter {
+	width: 100%;
+}
+
+.sprinter_pickpackpont_lista_kontener {
+	border: 1px solid rgb(242, 241, 241);
+	padding: 5px;
+}
+
+.sprinter_pickpackpont_lista_elemek {
+	max-height: 250px;
+	overflow-y: auto;
+	border: 1px solid rgb(242, 241, 241);
+}
+
+.sprinter_pickpackpont_lista_elem div {
+	font-style: italic;
+	font-size: smaller;
+}
+
+.sprinter_pickpackpont_lista_elem {
+	border-top: 1px solid rgb(242, 241, 241);
+	padding: 10px;
+	padding-right: 10px;
+	background: #fff;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.sprinter_pickpackpont_lista_elem:nth-child(even) {
+    background: #CCCCCC1A;
+}
+
+.sprinter_pickpackpont_lista_elem.sprinter_pickpackpont_kivalasztott_lista_elem {
+	background: #7e3488;
+	color: #fff;
+}
+
+
+#sprinter_kivalasztott_pickpackpont {
+	display: none;
+}
+
+.sprinter_pickpackpont_kivalasztas {
+	display: inline-block;
+	padding: 6px 10px;
+	background: #7e3488;
+	color: #fff;
+	font-weight: bold;
+	transition: all 0.3s linear 0s;
+	cursor: pointer;
+}
+
+.sprinter_pickpackpont_kivalasztas:hover {
+	background: black;
+}
+
+.sprinter_pickpackpont_kivalasztott_kontener {
+	min-height: 80px;
+	padding: 5px;
+	border: 1px solid rgb(242, 241, 241);
+	border-top: 0px;
+}
+
+.sprinter_pickpackpont_kivalasztott_kontener_adatok {
+	font-style: italic;
+	color: black;
+}
+
+.sprinter_pickpackpont_kivalasztott_kontener_adatok.sprinter_pickpackpont_kivalasztott_kontener_adatok_ures {
+	font-size: smaller;
+}
+
+.sprinter_pickpackpont_terkep_kontener {
+	border: 1px solid rgb(242, 241, 241);
+	padding: 5px;
+	border-bottom: 0px;
+}
+
+.sprinter_pickpackpont_infowindow_nev {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.sprinter_pickpackpont_infowindow_cim {
+	text-align: center;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sprinter_pickpackpont_infowindow_gomb {
+	text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;	
+}
+
+.sprinter_pickpackpont_infowindow {
+	color: black;
+}
+
+.sprinter_pickpackpont_szallitas_kalkulator_eltuntetese{
+    display: none;
+    visibility: hidden;
+}
+
+
+
+
+
+

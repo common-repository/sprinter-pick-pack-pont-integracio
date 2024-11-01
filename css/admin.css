@@ -1,0 +1,260 @@
+.manage-column.column-sprinter {
+  padding-bottom: 3px;
+  padding-top: 3px;
+  width:160px;
+  text-align: center;
+}
+
+
+.manage-column.column-sprinter span {
+  display: inline-block;
+  font-weight: 800;
+  font-size: 20px;
+  color: #19314C;
+}
+
+.manage-column.column-sprinter > span  span {
+  color: #C82135;
+  font-size: 15px;
+}
+
+
+.manage-column.column-sprinter > span img {
+  display: inline-block;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: sub;
+}
+
+.sprinter.column-sprinter p {
+  margin: 0;
+}
+
+.sprinter.column-sprinter {
+  text-align: center;
+}
+
+
+
+#sprinter_meta_box .sprinter_order_meta_box_fejlec {
+  margin: -8px -12px;
+  padding: 8px;
+}
+
+#sprinter_meta_box .sprinter_order_meta_box_fejlec img {
+  display: inline-block;
+  height: 20px;
+  vertical-align: sub;
+  margin-right: 10px;
+}
+
+#sprinter_meta_box .toggle-indicator::before {
+  color: #ffffff;
+}
+
+#sprinter_meta_box p {
+  margin: 0;
+}
+
+#sprinter_meta_box .inside {
+    text-align: center;
+}
+
+#sprinter_meta_box  .sprinter_order_meta_box_fejlec span {
+  color: rgb(255, 255, 255);
+  font-family: dosis;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#sprinter_meta_box  .sprinter_order_meta_box_fejlec span span {
+  color: #C82135;
+  font-size: 15px;
+}
+
+#sprinter_meta_box p span {
+  line-height: 26px;
+  vertical-align: top;
+  display: block;
+}
+
+
+
+
+.input_width_30{
+    width: 30%;
+}
+
+
+
+.sprinter_notice .notice p img{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: sub;
+    height: 20px;
+}
+
+
+
+.sprinter_button {
+  height: 26px !important;
+  padding: 0 !important;
+  width: 26px !important;
+  margin-left: 5px !important;
+}
+
+
+.sprinter_button.sprinter_button_nyomkovetes {
+  background: rgb(247, 247, 247) url("..//images/nyomkovetes_ikon.png") no-repeat scroll center center / 100% auto !important;
+}
+
+.sprinter_button.sprinter_button_fuvarlevel {
+  background: rgb(247, 247, 247) url("..//images/fuvarlevel_ikon.png") no-repeat scroll center center / 100% auto !important;
+}
+
+.sprinter_button.sprinter_button_shipment {
+  background: rgb(247, 247, 247) url("..//images/shipment_ikon.png") no-repeat scroll center center / 100% auto !important;
+}
+.sprinter.column-sprinter span {
+  display: inline-block;
+  line-height: 26px;
+  vertical-align: top;
+}
+
+
+.sprinter_button_megrendeles {
+  background-image: url("..//images/megrendeles_ikon.png") !important;
+  background-position: 5px center !important;
+  background-repeat: no-repeat !important;
+  background-size: 15% auto !important;
+  padding-left: 25px !important;
+}
+
+.sprinter_button_ujrarendeles {
+  background-image: url("..//images/ujrarendeles_ikon.png") !important;
+  background-position: 5px center !important;
+  background-repeat: no-repeat !important;
+  background-size: 15% auto !important;
+  padding-left: 25px !important;
+}
+
+
+#order_data .order_data_column span.sprinter_kivalasztott_pickpackpont_szerkesztes::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	vertical-align: top;
+	line-height: 14px;
+	font-size: 14px;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+    font-family: Dashicons;
+    content: '\f464';
+    cursor: pointer;
+
+}
+
+#order_data .order_data_column span.sprinter_kivalasztott_pickpackpont_szerkesztes {
+	width: 14px;
+	height: 0;
+	padding: 14px 0 0;
+	margin: 0 0 0 6px;
+	overflow: hidden;
+	position: relative;
+	color: #999;
+	border: 0;
+	float: right;
+}
+
+#order_data .order_data_column div.sprinter_kivalasztott_pickpackpont_szerkesztes{
+    display: none;
+}
+
+
+
+#sprinter_pickpackpont_kontener {
+	margin-bottom: 40px;
+}
+
+.sprinter_pickpackpont_filter_kontener {
+	border: 1px solid rgb(242, 241, 241);
+	padding: 5px;
+	border-bottom: 0px;
+}
+
+#sprinter_pickpackpont_filter {
+	width: 100%;
+}
+
+.sprinter_pickpackpont_lista_kontener {
+	border: 1px solid rgb(242, 241, 241);
+	padding: 5px;
+    margin-bottom: 20px;
+}
+
+.sprinter_pickpackpont_lista_elemek {
+	max-height: 250px;
+	overflow-y: auto;
+	border: 1px solid rgb(242, 241, 241);
+}
+
+.sprinter_pickpackpont_lista_elem div {
+	font-style: italic;
+	font-size: smaller;
+}
+
+.sprinter_pickpackpont_lista_elem {
+	border-top: 1px solid rgb(242, 241, 241);
+	padding: 10px;
+	padding-right: 10px;
+	background: #fff;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.sprinter_pickpackpont_lista_elem:nth-child(even) {
+    background: #CCCCCC1A;
+}
+
+.sprinter_pickpackpont_lista_elem.sprinter_pickpackpont_kivalasztott_lista_elem {
+	background: #1f2457;
+	color: #fff;
+}
+
+#sprinter_kivalasztott_pickpackpont {
+	display: none;
+}
+
+.sprinter_pickpackpont_kivalasztas {
+	display: inline-block;
+	padding: 6px 10px;
+	background: #1f2457;
+	color: #fff;
+	font-weight: bold;
+	transition: all 0.3s linear 0s;
+	cursor: pointer;
+}
+
+.sprinter_pickpackpont_kivalasztas:hover {
+	background: #f8b514;
+}
+
+.sprinter_pickpackpont_kivalasztott_kontener_cim{
+    display: none;
+}
+
+.sprinter_kivalasztott_pickpackpont_torles {
+	color: #0073aa;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sprinter_kivalasztott_pickpackpont_torles:hover {
+	color: #00a0d2;
+}
+
+
+
+
+
